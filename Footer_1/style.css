@@ -1,0 +1,96 @@
+.footer
+{
+    display:flex;
+    justify-content: space-between;
+    background: linear-gradient(105deg , #6e99e6,#093c94);
+    flex-wrap:wrap;
+}
+
+.section{
+  flex-basis: 200px;
+display: flex;
+flex-direction: column;
+}
+
+h1
+{
+  color:white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin-top: 10px;
+}
+
+hr
+{
+  align-self: flex-end;
+  width: 40%;
+  color: white;
+  <-margin-bottom: 27px;
+  transition: width 1s;
+  margin-left: 0;
+  padding-left: 0;
+}
+hr:hover{
+  width: 100%;
+}
+.footer li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  color: #ff3666;
+}
+
+#instagram:hover
+{
+  background-color: #fb3958;
+  color: white;
+}
+#twitter:hover
+{
+    background-color: #1DA1F2;
+    color: white;
+}
+#linkedin:hover
+{
+    background-color: #0077b5;
+    color: white;
+}
+#facebook:hover
+{
+  background-color: #4267B2;
+  color:white;
+}
+.Icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-grow: 1;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Icons a{
+  border-style: solid;
+  border-width: 0.01px;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: white;
+}
