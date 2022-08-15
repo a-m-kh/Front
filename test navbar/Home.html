@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>navbar</title>
+</head>
+<body>
+    <div id="nav" >
+        <div class="item">
+            <span id="close" onclick="cl()">x</span>
+        </div>
+        <div class="item hidden">item1</div>
+        <div class="item hidden">item2</div>
+        <div class="item hidden">item3</div>
+        <div class="item hidden">item4</div>
+        <div class="item hidden">item5</div>
+        <div class="item hidden">item6</div>
+    </div>
+    <script>
+        function cl(){
+            var x = document.getElementById('nav');
+            if(x.className == "open")
+            {
+                x.className = "close";
+            }else{
+                x.className = "open";
+            }
+        }
+
+    </script>
+</body>
+</html>
